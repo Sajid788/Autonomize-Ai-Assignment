@@ -10,7 +10,7 @@ const FollowersPage = ({ followers, onFollowerClick, onBack }) => {
         ← Back to Repositories
       </button>
       <h3 className="text-2xl font-semibold text-gray-700 mb-6">Followers</h3>
-      <div className="grid grid-cols-4 gap-6">
+      <div className="grid lg:grid-cols-4 grid-cols-1 gap-6">
         {followers.map((follower) => (
           <li
             key={follower.id}

@@ -16,9 +16,9 @@ const RepositoryListPage = ({
 
   return (
     <div className="w-[95%] m-auto bg-slate-100">
-      <div className="flex gap-5">
-        <div className="w-[30%] self-start">
-          <div className="p-10 flex-col items-center justify-center">
+      <div className="flex lg:flex-row flex-col gap-5">
+        <div className="lg:w-[30%] self-start">
+          <div className="lg:p-10 p-4 flex-col items-center justify-center">
             <img
               src={userData.avatar_url}
               alt="User Avatar"
@@ -43,9 +43,9 @@ const RepositoryListPage = ({
           </div>
         </div>
 
-        <div className="w-[70%]  mt-10">
+        <div className="lg:w-[70%]  mt-10">
           <h3 className="text-2xl font-semibold text-neutral-400">Repositories</h3>
-          <div className="grid grid-cols-2 gap-8 mt-4">
+          <div className="grid lg:grid-cols-2 grid-cols-1 gap-8 mt-4">
             {repositories.slice(0, visibleRepos).map((repo) => (
               <div key={repo.id} onClick={() => onRepoClick(repo)} className=" cursor-pointer">
                 <div className="flex gap-4">
