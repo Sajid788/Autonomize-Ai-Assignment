@@ -28,14 +28,14 @@ const RepositoryListPage = ({
             <p>{userData.bio}</p>
             <div className="flex gap-5 mt-4">
               <button
-                className="bg-blue-500 text-white rounded shadow-sm cursor-pointer px-6"
+                className="bg-blue-500 hover:bg-blue-600 text-white rounded shadow-sm cursor-pointer px-6"
                 onClick={onBack}
               >
                 ← Back
               </button>
               <button
                 onClick={onViewFollowers}
-                className="bg-[#299f5c] rounded-md px-4 text-white py-1 cursor-pointer"
+                className="bg-[#299f5c] hover:bg-[#207e49] rounded-md px-4 text-white py-1 cursor-pointer"
               >
                 Followers ({followers.length})
               </button>
@@ -47,7 +47,7 @@ const RepositoryListPage = ({
           <h3 className="text-2xl font-semibold text-neutral-400">Repositories</h3>
           <div className="grid grid-cols-2 gap-8 mt-4">
             {repositories.slice(0, visibleRepos).map((repo) => (
-              <div key={repo.id} onClick={() => onRepoClick(repo)}>
+              <div key={repo.id} onClick={() => onRepoClick(repo)} className=" cursor-pointer">
                 <div className="flex gap-4">
                   <img
                     src={userData.avatar_url}

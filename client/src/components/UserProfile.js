@@ -1,36 +1,6 @@
 import React, { useState } from "react";
 import "../App.css";
 
-const userData = {
-  login: "GUDDU434",
-  name: "UDDU ALI",
-  avatar_url: "https://avatars.githubusercontent.com/u/99042645?v=4",
-  bio: "I am a FULL STACK WEB DEVELOPER specializing in MERN STACK from Masai school Bengaluru, Karnataka",
-  company: "Masai School",
-  blog: "https://GUDDU434.github.io/",
-  location: "Mumbai, Maharashtra",
-  public_repos: 16,
-  followers: 15,
-  following: 13,
-  html_url: "https://github.com/GUDDU434",
-};
-
-const repos = [
-  {
-    id: 1,
-    name: "repo1",
-    description: "This is a description.",
-    stargazers_count: 10,
-    html_url: "#",
-  },
-  {
-    id: 2,
-    name: "repo2",
-    description: "This is another repo.",
-    stargazers_count: 5,
-    html_url: "#",
-  },
-];
 const UserProfile = () => {
   const [selectedRepo, setSelectedRepo] = useState(null);
 
