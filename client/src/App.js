@@ -14,9 +14,9 @@ const App = () => {
 
   const handleSearch = async (user_name) => {
     try {
-      const userRes = await fetch(`http://localhost:8080/users/${user_name}`);
+      const userRes = await fetch(`https://autonomize-ai-assignment-delta.vercel.app/users/${user_name}`);
       const repoResAndFollowers = await fetch(
-        `http://localhost:8080/users/${user_name}/repos`
+        `https://autonomize-ai-assignment-delta.vercel.app/users/${user_name}/repos`
       );
 
       if (userRes.ok && repoResAndFollowers.ok) {
@@ -50,7 +50,6 @@ const App = () => {
     <div className="app border h-screen bg-gray-100">
       {currentView === "home" && (
         <div className="flex justify-center items-center h-full flex-col ">
-          {/* <h1 className="text-2xl">GitHub User Finder</h1> */}
           <img src="https://pngimg.com/uploads/github/github_PNG76.png" alt="GitHub User Finder" 
           className=" h-24 object-contain"
           />
