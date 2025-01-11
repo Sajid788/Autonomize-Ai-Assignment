@@ -9,6 +9,10 @@ This project is a full-stack application designed to interact with GitHub's API 
 
 - Followers List: Navigate to view the list of followers of the selected user.
 
+- Perform basic CRUD operations such as updating, soft-deleting records, and fetching sorted user lists.
+  
+- if you search for a username, the user's data is fetched and stored in a MongoDB database."
+
 ## Backend
 - Framework: Express.js
 - Database: MongoDB
