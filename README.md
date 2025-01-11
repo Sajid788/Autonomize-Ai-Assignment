@@ -30,4 +30,24 @@ This project is a full-stack application designed to interact with GitHub's API 
 1. **Clone the Repository**:
    ```bash
    git clone https://github.com/Sajid788/Autonomize-Ai-Assignment.git
-   cd Autonomize-Ai-Assignment
+   cd Autonomize-Ai-Assignment 
+
+## Enter a GitHub username in the input field.
+![image](https://github.com/user-attachments/assets/257682e0-43ed-483c-a043-5b64e0b2e0f9)
+
+## User Profile details and reposit0ries list.
+![image](https://github.com/user-attachments/assets/e6c6d235-7738-4f7a-ab4c-dacafaf73ed0)
+
+## reposit0ries details
+![image](https://github.com/user-attachments/assets/a95d0f67-f03b-4d57-bed1-b872371bfc77)
+
+## Followers list
+![image](https://github.com/user-attachments/assets/83076574-5853-45b6-9b48-5207e39b532e)
+
+## Followers, Followers details
+![image](https://github.com/user-attachments/assets/e21e86e3-a1ae-4bdf-9e3f-dcb36a806fd6)
+
+
+
+
+
