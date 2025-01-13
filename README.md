@@ -37,7 +37,8 @@ This project is a full-stack application designed to interact with GitHub's API 
    cd Autonomize-Ai-Assignment 
 
 ## Enter a GitHub username in the input field.
-![image](https://github.com/user-attachments/assets/257682e0-43ed-483c-a043-5b64e0b2e0f9)
+![image](https://github.com/user-attachments/assets/4c5c3acc-e96f-4d84-bcf7-3e47b80440a7)
+
 
 ## User Profile details and reposit0ries list.
 ![image](https://github.com/user-attachments/assets/e6c6d235-7738-4f7a-ab4c-dacafaf73ed0)
@@ -51,6 +52,8 @@ This project is a full-stack application designed to interact with GitHub's API 
 ## Followers, Followers details
 ![image](https://github.com/user-attachments/assets/e21e86e3-a1ae-4bdf-9e3f-dcb36a806fd6)
 
+## User List
+![image](https://github.com/user-attachments/assets/90d99a63-2bb8-4014-bd7c-bd07ffc874a2)
 
 
 
